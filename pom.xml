@@ -10,13 +10,13 @@
     </parent>
     <artifactId>orchestrator</artifactId>
     <packaging>pom</packaging>
-    <name>javaee-base-template-orchestrator</name>
+    <name>javaee-base-template-${project.artifactId}</name>
 
     <modules>
         <module>bom</module>
         <!-- <module>assembly</module> -->
-        <module>api-module</module>
-        <module>module</module>
+        <module>module-api</module>
+        <module>module-impl</module>
         <module>webapp</module>
     </modules>
 

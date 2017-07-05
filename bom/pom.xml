@@ -6,7 +6,7 @@
     <artifactId>bom</artifactId>
     <packaging>pom</packaging>
     <version>0.1-SNAPSHOT</version>
-    <name>javaee-base-template-bom</name>
+    <name>javaee-base-template-${project.artifactId}</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -17,12 +17,12 @@
         <dependencies>
             <dependency>
                 <groupId>io.github.erikliberal.javaee-base-template</groupId>
-                <artifactId>api-module</artifactId>
+                <artifactId>module-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.github.erikliberal.javaee-base-template</groupId>
-                <artifactId>module</artifactId>
+                <artifactId>module-impl</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

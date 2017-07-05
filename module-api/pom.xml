@@ -8,8 +8,8 @@
         <artifactId>bom</artifactId>
         <relativePath>../bom</relativePath>
     </parent>
-    <artifactId>api-module</artifactId>
-    <name>javaee-base-template-api-module</name>
+    <artifactId>module-api</artifactId>
+    <name>javaee-base-template-${project.artifactId}</name>
     <packaging>jar</packaging>
 
     <properties>

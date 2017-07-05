@@ -10,7 +10,7 @@
     </parent>
     <artifactId>webapp</artifactId>
     <packaging>war</packaging>
-    <name>javaee-base-template-webapp</name>
+    <name>javaee-base-template-${project.artifactId}</name>
 
     <properties>
     </properties>
@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>io.github.erikliberal.javaee-base-template</groupId>
-            <artifactId>module</artifactId>
+            <artifactId>module-impl</artifactId>
         </dependency>
         <dependency>
             <groupId>javax</groupId>

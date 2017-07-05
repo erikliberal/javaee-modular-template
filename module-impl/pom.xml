@@ -8,8 +8,8 @@
         <artifactId>bom</artifactId>
         <relativePath>../bom</relativePath>
     </parent>
-    <artifactId>module</artifactId>
-    <name>javaee-base-template-module</name>
+    <artifactId>module-impl</artifactId>
+    <name>javaee-base-template-${project.artifactId}</name>
     <packaging>jar</packaging>
 
     <properties>
@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>io.github.erikliberal.javaee-base-template</groupId>
-            <artifactId>api-module</artifactId>
+            <artifactId>module-api</artifactId>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
